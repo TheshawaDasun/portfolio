@@ -1,0 +1,41 @@
+body{
+    background: #fff;
+}
+.ps{
+    padding: 0 2.7em;
+}
+#jumbo{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#about1,#about2{
+    min-height: 100vh;
+    
+}
+
+#about3,#about4{
+    min-height: 60vh;
+}
+#about5{
+    min-height: 20vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2.7em;
+    max-height: 10vh;
+}
+#img{
+    font-size: 10rem;
+    @include res{
+        font-size: 6rem;
+    }
+}

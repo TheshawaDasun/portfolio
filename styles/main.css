@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: black;
+}
+
+.fs_l {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .fs_l {
+    font-size: 16vw;
+  }
+}
+
+.fs_m {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .fs_m {
+    font-size: 12vw;
+  }
+}
+
+.fs_xm {
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .fs_xm {
+    font-size: 9vw;
+  }
+}
+
+.fs_s {
+  font-size: 1.7rem;
+}
+
+.ms1 {
+  margin: 0 2rem;
+}
+
+.mb1 {
+  margin-bottom: 2rem;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+.ps {
+  padding: 0 2.7em;
+}
+
+#jumbo {
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about1, #about2 {
+  min-height: 100vh;
+}
+
+#about3, #about4 {
+  min-height: 60vh;
+}
+
+#about5 {
+  min-height: 20vh;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 2.7em;
+  max-height: 10vh;
+}
+
+#img {
+  font-size: 10rem;
+}
+
+@media only screen and (max-width: 800px) {
+  #img {
+    font-size: 6rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

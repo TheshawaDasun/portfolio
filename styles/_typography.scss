@@ -1,0 +1,44 @@
+@mixin res {
+    @media only screen and (max-width:800px){
+        @content
+    }
+};
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+}
+
+.fs_l{
+    font-size: 6rem;
+    @include res{
+        font-size: 16vw;
+    }
+}
+.fs_m{
+    font-size: 4rem;
+    @include res{
+        font-size: 12vw;
+    }
+}
+.fs_xm{
+    font-size: 2.5rem;
+    @include res{
+        font-size: 9vw;
+    }
+}
+.fs_s{
+    font-size: 1.7rem;
+}
+.ms1{
+    margin: 0 2rem;
+}
+.mb1{
+    margin-bottom: 2rem;
+}
+.tdn{
+    text-decoration: none;
+}
